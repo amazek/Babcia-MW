@@ -358,37 +358,7 @@ ul.nav > li.active > a{
 }
 
 /* ==========================================================================
-   Food Section
-   ========================================================================== */
-.food_section{}
-.food_section .food_list{}
-.food_section .food_list li{
-	padding: 15px;
-}
-.food_section .food_list .food_content{
-	display: block;
-}
-.food_section .food_list .food_content i {
-    display: inline-block;
-    font-size: 45px;
-    color: #cfa670;
-	transition: all 0.5s ease-in-out;
-}
-.food_section .food_list .food_content:hover i{
-	-webkit-transform: scale(1.2);
-	transform: scale(1.2);
-	transition: all 0.2s ease-in-out;
-}
-.food_section .food_list .food_content h3{
-	margin: 20px 0 5px;
-}
-.food_section .food_list .food_content p{
-	margin: 0;
-}
-
-
-/* ==========================================================================
-   Featured Food Section
+   Bags Section
    ========================================================================== */
 .bags{}
 .img_box{}
@@ -412,7 +382,7 @@ ul.nav > li.active > a{
     color: #111;
 }
 /* ==========================================================================
-   familySection
+   family Section
    ========================================================================== */
 .family_section{}
 .family_section .family_list{}
@@ -436,25 +406,6 @@ ul.nav > li.active > a{
 	border-radius: 50%;
 	margin: 20px 0;
 }
-.socials{}
-.socials li{
-	display: inline-block;
-}
-.socials li a{
-	display: inline-block;
-	color: #555;
-    border: 1px solid #cfa670;
-	width: 25px;
-	height: 25px;
-	font-size: 12px;
-	line-height: 25px;
-	margin: 0 5px;
-}
-.socials li a:hover{
-    color: #cfa670;
-	opacity: 0.8;
-}
-
 /* ==========================================================================
    Gallery Section
    ========================================================================== */
