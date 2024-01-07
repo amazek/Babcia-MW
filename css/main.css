@@ -358,26 +358,26 @@ ul.nav > li.active > a{
 }
 
 /* ==========================================================================
-   Bags Section
+   handmade Section
    ========================================================================== */
-.bags{}
+.handmade{}
 .img_box{}
 .img_box img{
 	width: 100%;
 }
-.bags .bags_content{
+.handmade .handmade_content{
     padding: 70px 0;
 }
-.bags_content h2{
+.handmade_content h2{
     margin-bottom: 20px;
 }
-.bags_content .fs_btn{
+.handmade_content .fs_btn{
     margin-top: 10px;
     background-color: transparent;
     border: 1px solid #999;
     color: #999;
 }
-.bags_content .fs_btn:hover{
+.handmade_content .fs_btn:hover{
     border: 1px solid #cfa670;
     color: #111;
 }
@@ -462,7 +462,7 @@ ul.nav > li.active > a{
    now Section
    ========================================================================== */
 .now_section{
-	background-image: url(../img/event.jpg);
+	background-image: url(../img/now.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
