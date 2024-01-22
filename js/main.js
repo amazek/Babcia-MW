@@ -5,21 +5,29 @@
     });
 
 /* Sticky Header */ 
-	$(function() {
-		var header = $("#header"),
-			yOffset = 0,
-			triggerPoint = 80;
-		$(window).on( 'scroll', function() {
-			yOffset = $(window).scrollTop();
+$(function() {
+	var header = $("#header"),
+		yOffset = 0,
+		triggerPoint = 80;
+	$(window).on('scroll', function() {
+		yOffset = $(window).scrollTop();
 
-			if (yOffset >= triggerPoint) {
-				header.addClass("navbar-fixed-top");
-			} else {
-				header.removeClass("navbar-fixed-top");
-			}
+		if (yOffset >= triggerPoint) {
+			header.addClass("navbar-fixed-top");
+			header.find('.brand').addClass("scrolled"); 
+		} else {
+			header.removeClass("navbar-fixed-top");
+			header.find('.brand').removeClass("scrolled"); 
+		}
 
-		});
-	}); 
+	});
+});
+
+/* Initialize smoothscroll plugin */
+smoothScroll.init({
+	offset: 60
+});
+
 			 
 /* Initialize smoothscroll plugin */
 	smoothScroll.init({

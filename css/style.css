@@ -315,14 +315,12 @@ button {
 
 .navbar-fixed-top ul.nav > li > a:hover,
 .navbar-fixed-top ul.nav > li > a:focus,
-.navbar-fixed-top ul.nav > li.active > a {
+.navbar-fixed-top ul.nav > li.active > a,
+.logo-dark {
     color: #333;
 }
 
-.logo-light,
-.navbar-fixed-top .logo-light,
-.logo-dark,
-.navbar-fixed-top .logo-dark,
+.navbar-fixed-top,.navbar-fixed-top .logo-dark,
 .navbar-fixed-top.header_section,
 .header_section {
     transition: all 0.3s ease-in-out;
@@ -344,7 +342,7 @@ button {
 
 .navbar-header .brand {
     font-size: 25px;
-    color: #282828;
+    color: #fdd5da;
     font-family: 'Lato', sans-serif;
     letter-spacing: -1px;
     font-weight: 600;
