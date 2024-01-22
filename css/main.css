@@ -98,7 +98,7 @@ textarea:-ms-input-placeholder{
 button{
     border: none;
 }
-/* Helper Class */
+
 .padding{
     padding: 80px 0;
 }
@@ -219,16 +219,12 @@ body.loaded #preloader{
     border: 1px solid #cfa670;
 }
 
-/* Transition Effect */
 a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 
-/* ==========================================================================
-   Header Section
-   ========================================================================== */
 .header_section{
     background-color: transparent;
     border-bottom: 1px solid rgba(255,255,255,0.1);
@@ -299,7 +295,6 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     opacity: 0.8;
 }
 
-/* Nav Menu */
 #navbar{
     z-index: 999;
     padding: 0 15px;
@@ -328,9 +323,7 @@ ul.nav > li.active > a{
     opacity: 1;
 }
 
-/* ==========================================================================
-   Hero Section
-   ========================================================================== */
+/* Hero Section */
 .hero_section{
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
@@ -344,9 +337,7 @@ ul.nav > li.active > a{
     color: #ddd;
 }
 
-/* ==========================================================================
-   About Section
-   ========================================================================== */
+/* About Section */
 .about_section{}
 .about_section .about_content{}
 .about_section .about_content{
@@ -357,9 +348,7 @@ ul.nav > li.active > a{
 	width: 100%;
 }
 
-/* ==========================================================================
-   handmade Section
-   ========================================================================== */
+/* Handmade Section */
 .handmade{}
 .img_box{}
 .img_box img{
@@ -381,9 +370,7 @@ ul.nav > li.active > a{
     border: 1px solid #cfa670;
     color: #111;
 }
-/* ==========================================================================
-   family Section
-   ========================================================================== */
+/* family Section */
 .family_section{}
 .family_section .family_list{}
 .family_section .family_list .family_info{
@@ -406,9 +393,7 @@ ul.nav > li.active > a{
 	border-radius: 50%;
 	margin: 20px 0;
 }
-/* ==========================================================================
-   Gallery Section
-   ========================================================================== */
+/* Gallery Section */
 .gallery_section{}
 .gallery_items{}
 .gallery_items li{
@@ -458,9 +443,7 @@ ul.nav > li.active > a{
     visibility: visible;
 }
 
-/* ==========================================================================
-   now Section
-   ========================================================================== */
+/* now Section */
 .now_section{
 	background-image: url(../img/now.jpg);
 	background-repeat: no-repeat;
@@ -476,9 +459,7 @@ ul.nav > li.active > a{
 .now_content p{
     color: #ddd;
 }
-/* ==========================================================================
-   new Section
-   ========================================================================== */
+/* new Section */
 .new_section{}
 .new_posts{}
 .new_posts .new_content{}
@@ -511,9 +492,7 @@ ul.nav > li.active > a{
 	color: #282828;
 }
 
-/* ==========================================================================
-   Footer Section
-   ========================================================================== */
+/* Footer Section */
 .footer_section{
 	display: block;
 	background-color: #111;
@@ -535,9 +514,7 @@ ul.nav > li.active > a{
 	margin: 0;
 }
 
-/* ==========================================================================
-   Scroll to Top
-   ========================================================================== */
+/* Scroll to Top */
 #scroll-to-top{
     background-color: #cfa670;
     display: none;
